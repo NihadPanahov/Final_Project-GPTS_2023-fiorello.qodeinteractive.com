@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.container {
+    width: 86%;
+    margin: auto;
+}
+
+// ===================================
+// ===================================
+// ===================================
+
+#section_1 {
+    background-color: #F7F7F7;
+   
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-image: url("../img/bg_img_flowers.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-position-y: 5px;
+
+    .s_1_text {
+        padding: 100px 0;
+
+        h2 {
+            font-size: 41px;
+            color: #000000;
+
+            span {
+                color: red;
+            }
+        }
+
+        p {
+            color: #757272;
+            font-size: 17px;
+            width: 400px;
+            padding: 17px 0;
+            font-weight: 550;
+        }
+    }
+
+   
+
+    .slider_arrows {
+        i {
+            cursor: pointer;
+            font-size: 50px;
+            color: #bcbcbc;
+            position: absolute;
+            left: 40px;
+            top: 50%;
+            transform: translateX(-50%);
+            transition: 0.1s;
+
+            &:hover {
+                color: #5f5f5f;
+            }
+
+        }
+
+        .right_arrow {
+            cursor: pointer;
+            font-size: 50px;
+            color: #bcbcbc;
+            position: absolute;
+            right: 80px;
+            top: 50%;
+            transform: translateX(-50%);
+        }
+    }
+
+}
+
+// ===================================
+// ===================================
+// ===================================
+
+.dots {
+
+    display: flex;
+
+    text-align: center;
+    margin: auto;
+    text-align: center;
+    margin-left: 600px;
+    position: absolute;
+    margin-bottom: 70px;
+    bottom: 80px;
+
+
+    .s_1_dots {
+      
+
+        margin: 0 10px;
+
+
+        background-color: black;
+        padding: 5px;
+        border-radius: 50%;
+        width: 10px;
+    }
+}
+
+// ===================================
+// ===================================
+// ===================================
+
+@media (max-width: 1030px) {
+    #section_1 {
+       
+
+        i {
+            display: none;
+        }
+    }
+
+    .dots {
+        display: flex;
+
+    text-align: center;
+   
+    text-align: center;
+    margin-left: 600px;
+  
+        .s_1_dots {
+            display: none;
+            margin: 0 10px;
+
+
+            background-color: black;
+            padding: 5px;
+            border-radius: 50%;
+            width: 10px;
+        }
+    }
+
+}
+
+// ===================================
+// ===================================
+// ===================================
+
+@media (max-width: 1200px) {
+    .dots{
+        display: none;
+    }
+}
+
+// ===================================
+// ===================================
+// ===================================
