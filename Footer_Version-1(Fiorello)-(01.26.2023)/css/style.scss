@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 86%;
+    margin: auto;
+}
+
+
+
+
+// ===================================
+// ===================================
+// ===================================
+
+.footer {
+    .f-top {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        letter-spacing: 1.1px;
+        padding: 70px 0;
+
+        h6 {
+            color: black;
+            font-weight: 600;
+            font-size: 12px;
+        }
+
+        ul {
+            padding-left: 0px;
+            padding-top: 20px;
+            li {
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    color: #BFBFBF;
+                    font-size: 12px;
+                    transition: 0.4s;
+                    &:hover{
+                        color: #F59890;
+                    }
+                }
+            }
+        }
+    }
+
+    
+}
+
+#Footer{
+    background-color: #FEFAF3;
+    .f-bottom{
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        p{
+            font-size: 12px;
+            color: #BFBFBF;
+
+
+            a {
+                text-decoration: none;
+                color: #636363;
+                font-size: 12px;
+                transition: 0.4s;
+                &:hover{
+                    color: #F59890;
+                }
+            }
+        }
+        
+           .f_b_right{
+            a{
+                padding: 0 15px;
+                color: #BFBFBF;
+                font-weight: 600;
+                font-size: 12px;
+                text-decoration: none;
+                letter-spacing: 1.1px;
+                font-weight: 500;
+                transition: 0.4s;
+                &:hover{
+                    color: #F59890;
+                }
+            }
+           }
+        
+    }
+}
+
+@media (max-width: 1080px) {
+    .f-bottom{
+        text-align: center;
+    }
+}
+
+@media (min-width: 560px ) {
+    .f-top{
+        display: block;
+        
+      
+    }
+}
+
